@@ -41,7 +41,7 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 
 A linear SVC classifier has been defined in the section `HOG Classify` of the IPython notebook. 
 
-I started with `color_space = 'RGB'` and `hog_channel = 0`. The resulted SVC model did not predict well on the test images and produced too many false positives. 
+I started with `color_space = 'RGB'` and `hog_channel = 0`. The resulted SVM model did not predict well on the test images and produced too many false positives. 
 
 I ended up with `color_space = 'YCrCb'` and `hog_channel = 'ALL'`, which reduced substantially the false positives.
 

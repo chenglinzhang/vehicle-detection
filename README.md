@@ -1,6 +1,6 @@
 # Udacity Self-Driving Car Nanodegree Program 
 
-# ** 5. Vehicle Detection **
+# **5. Vehicle Detection **
 
 The goals / steps of this project are the following:
 
@@ -13,8 +13,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 [image1]: ./output_images/car_not_car.png
-[image2]: ./output_images/HOG_example.jpg
-[image3]: ./output_images/sliding_windows.jpg
+[image2]: ./output_images/HOG_example.png
+[image3]: ./output_images/sliding_windows.png
 [image4]: ./output_images/find_cars.png
 [image5]: ./output_images/bboxes_and_heat5.png
 [image6]: ./output_images/bboxes_and_heat4.png
@@ -22,6 +22,7 @@ The goals / steps of this project are the following:
 [image8]: ./output_images/bboxes_and_heat6.png
 [image9]: ./output_images/bboxes_and_heat3.png
 [image10]: ./output_images/bboxes_and_heat1.png
+
 ### Histogram of Oriented Gradients (HOG)
 
 #### 1. Explain how (and identify where in your code) you extracted HOG features from the training images.
@@ -85,7 +86,7 @@ I recorded the positions of positive detections in each frame of the video.  Fro
 
 Here's an example result showing the heatmap from a series of frames of video, the result of `scipy.ndimage.measurements.label()` and the bounding boxes then overlaid on the last frame of video:
 
-### Here are six frames and their corresponding heatmaps, with the resulting bounding boxes labelled by `scipy.ndimage.measurements.label()`:
+Here are six frames and their corresponding heatmaps, with the resulting bounding boxes labelled by `scipy.ndimage.measurements.label()`:
 
 ![alt text][image5]
 ![alt text][image6]
